@@ -93,7 +93,14 @@ Want to deploy?
 
 ## 📸 Screenshots
 
-*Add a few screenshots of homepage, listing show page, etc.*
+![image](https://github.com/user-attachments/assets/71952626-91cb-4480-aed2-8b8e7b9f6122)
+![image](https://github.com/user-attachments/assets/01593a29-be9b-48a1-9282-8aafdbdb4f13)
+![image](https://github.com/user-attachments/assets/a6acb082-3e2d-43b6-b674-2ac93092447d)
+![image](https://github.com/user-attachments/assets/d83b2900-814d-45dd-a1f7-d2e305553ce9)
+![image](https://github.com/user-attachments/assets/31c31a07-4c1e-48dd-8e93-bc9c80f97745)
+
+
+
 
 ---
 
