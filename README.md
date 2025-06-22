@@ -54,8 +54,8 @@ AIRBNB/
 1. **Clone the repo**
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
+git clone https://github.com/hardbuilder/BNBooking.git
+cd BNBooking
 ```
 
 2. **Install dependencies**
