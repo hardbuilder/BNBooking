@@ -1,0 +1,39 @@
+<% layout('/layouts/boilerplate')%>
+<body>
+    <form method="POST" action="/listings">
+    <h3>Add New Listing</h3>
+  <div class="mb-3">
+    <label for="Title" class="form-label">Title</label>
+    <input type="Text" name="listing[title]" class="form-control" id="Title" placeholder="Title" required>
+    <div id="emailHelp" class="form-text">Enter The Title Here</div>
+  </div>
+  <div class="mb-3">
+    <label for="description" class="form-label">Description</label>
+    <textarea class="form-control" name="listing[description]" placeholder="Description" required></textarea>
+    <div id="emailHelp" class="form-text">Enter The Description Here</div>
+  </div>
+  <div class="mb-3">
+    <label for="img" class="form-label">Image</label>
+    <input type="Text" name="listing[image]" class="form-control" id="img" placeholder="url" required>
+    <div id="emailHelp" class="form-text">Enter The Image URL Here</div>
+  </div>
+    <div class="mb-3">
+    <label for="price" class="form-label">Price</label>
+    <input type="number" name="listing[price]" class="form-control" id="price" placeholder="Price" required>
+    <div id="emailHelp" class="form-text">Enter The Price Here</div>
+  </div>
+    <div class="mb-3">
+    <label for="location" class="form-label">Location</label>
+    <input type="Text" name="listing[location]" class="form-control" id="location" placeholder="Location" required>
+    <div id="emailHelp" class="form-text">Enter The Location Here</div>
+  </div>
+    <div class="mb-3">
+    <label for="country" class="form-label">Country</label>
+    <input type="Text" name="listing[country]" class="form-control" id="country" placeholder="Country" required>
+    <div id="emailHelp" class="form-text">Enter The Country Here</div>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</body>
+
+

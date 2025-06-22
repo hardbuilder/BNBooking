@@ -1,0 +1,46 @@
+<% layout('/layouts/boilerplate') %>
+<body>
+    <br>
+  <form method="POST" action="/listings/<%= listing._id %>?_method=PUT">
+    <h3>Edit Listing</h3>
+
+    <div class="mb-3">
+      <label for="Title" class="form-label">Title</label>
+      <input type="text" name="listing[title]" value="<%= listing.title %>" class="form-control" id="Title" placeholder="Title" required>
+      <div class="form-text">Edit the Title</div>
+    </div>
+
+    <div class="mb-3">
+      <label for="description" class="form-label">Description</label>
+      <textarea class="form-control" name="listing[description]" id="description" placeholder="Description" required><%= listing.description %></textarea>
+      <div class="form-text">Edit the Description</div>
+    </div>
+
+    <div class="mb-3">
+      <label for="img" class="form-label">Image</label>
+      <input type="text" name="listing[image]" value="<%= listing.image.url %>" class="form-control" id="img" placeholder="Image URL" required>
+      <div class="form-text">Edit the Image URL</div>
+    </div>
+
+    <div class="mb-3">
+      <label for="price" class="form-label">Price</label>
+      <input type="number" name="listing[price]" value="<%= listing.price %>" class="form-control" id="price" placeholder="Price" required>
+      <div class="form-text">Edit the Price</div>
+    </div>
+
+    <div class="mb-3">
+      <label for="location" class="form-label">Location</label>
+      <input type="text" name="listing[location]" value="<%= listing.location %>" class="form-control" id="location" placeholder="Location" required>
+      <div class="form-text">Edit the Location</div>
+    </div>
+
+    <div class="mb-3">
+      <label for="country" class="form-label">Country</label>
+      <input type="text" name="listing[country]" value="<%= listing.country %>" class="form-control" id="country" placeholder="Country" required>
+      <div class="form-text">Edit the Country</div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Update Listing</button>
+  </form>
+  <br>
+</body>
